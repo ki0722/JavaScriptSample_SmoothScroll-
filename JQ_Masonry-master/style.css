@@ -1,0 +1,37 @@
+h1{
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.grid{
+	margin: 0 auto;
+}
+
+.grid-item {
+	width: 200px;
+  background: #DDD;
+  border-radius: 10px;
+	margin-bottom: 1rem;
+}
+
+.grid-item h1{
+	font-size: 18px;
+}
+
+.grid-item img{
+	display: block;
+	width:80%;
+	margin: auto;
+}
+
+.grid-item ul{
+	width:80%;
+	margin: 1rem auto;
+}
+
+.grid-item li{
+	font-size: 0.8rem;
+}
+
+/* 2倍幅のwidth = item width + margin + item width */ 
+.grid-item-width2 { width: 440px; }
